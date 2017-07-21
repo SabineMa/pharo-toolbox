@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "DumpStore",
-	"category" : "Dumper-Core",
+	"super" : "ExceptionReportStore",
+	"category" : "ExceptionReport-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"path"
+		"dict"
 	],
-	"name" : "DumpFilesystemStore",
+	"name" : "ExceptionReportMemoryStore",
 	"type" : "normal"
 }

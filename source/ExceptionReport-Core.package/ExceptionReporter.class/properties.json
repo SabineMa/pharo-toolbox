@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Dumper-Core",
+	"category" : "ExceptionReport-Core",
 	"classinstvars" : [
 		"store"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "Dumper",
+	"name" : "ExceptionReporter",
 	"type" : "normal"
 }

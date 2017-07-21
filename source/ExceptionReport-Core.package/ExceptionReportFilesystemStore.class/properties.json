@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ExceptionReportStore",
+	"category" : "ExceptionReport-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"path"
+	],
+	"name" : "ExceptionReportFilesystemStore",
+	"type" : "normal"
+}
