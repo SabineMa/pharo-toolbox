@@ -1,3 +1,4 @@
 accessing
 path: anObject
-	path := anObject asFileReference
+	path := anObject asFileReference.
+	path ensureCreateDirectory 
