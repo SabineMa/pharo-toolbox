@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ZnJSONRestServerDelegate",
+	"category" : "ExceptionReport-Rest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ExceptionReportServerDelegate",
+	"type" : "normal"
+}
