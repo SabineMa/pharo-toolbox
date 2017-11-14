@@ -1,3 +1,3 @@
 testing
-hasSnapshotNamed: aString
-	^ ( path / aString ) exists
+hasSnapshotNamed: description
+	^ ( path / (self filenameFor: description) ) exists

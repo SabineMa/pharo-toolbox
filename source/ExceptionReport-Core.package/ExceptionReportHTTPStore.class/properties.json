@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ExceptionReportStore",
+	"category" : "ExceptionReport-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"uri",
+		"username",
+		"password",
+		"project",
+		"version"
+	],
+	"name" : "ExceptionReportHTTPStore",
+	"type" : "normal"
+}

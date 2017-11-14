@@ -1,9 +1,9 @@
 as yet unclassified
 storeException: exception
-	| snapshotName |
-	snapshotName := self snapshotNameFor: exception.
-	(self hasSnapshotNamed: snapshotName)
+	| description |
+	description := self descriptionFor: exception.
+	(self hasSnapshotNamed: description)
 		ifFalse: [ 
 			self 
-				persistDebugContext: (self createDebugContextFrom: exception)
-				name: snapshotName ]
+				storeDebugContext: (self createDebugContextFrom: exception)
+				description: description ]
