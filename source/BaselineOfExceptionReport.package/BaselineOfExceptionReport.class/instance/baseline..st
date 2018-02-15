@@ -10,7 +10,7 @@ baseline: spec
 		spec project: 'Fuel' with: [
 				spec
 					className: #ConfigurationOfFuel;
-					versionString: #'bleedingEdge';
+					versionString: '2.2.0';
 					repository: 'http://smalltalkhub.com/mc/Pharo/Fuel/main' ].
 		spec	
 			project: 'Zinc' with: [
