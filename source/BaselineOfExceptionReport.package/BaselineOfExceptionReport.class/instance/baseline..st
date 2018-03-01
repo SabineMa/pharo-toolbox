@@ -4,14 +4,8 @@ baseline: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec package: #'ExceptionReport-Core' with: [
-				spec requires: #('Fuel' ). ].
+		spec package: #'ExceptionReport-Core'.
 		spec package: #'ExceptionReport-Rest' with: [ spec requires: #('ExceptionReport-Core' 'Zinc') ].
-		spec project: 'Fuel' with: [
-				spec
-					className: #ConfigurationOfFuel;
-					versionString: '2.2.0';
-					repository: 'http://smalltalkhub.com/mc/Pharo/Fuel/main' ].
 		spec	
 			project: 'Zinc' with: [
 				spec
