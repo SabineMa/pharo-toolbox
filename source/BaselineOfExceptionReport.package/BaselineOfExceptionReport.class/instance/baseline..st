@@ -12,5 +12,6 @@ baseline: spec
 					loads: #('REST' );
 					repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
 		spec 
-			group: 'default' with: #(#'ExceptionReport-Core' #'ExceptionReport-Rest' );
+			group: 'default' with: #(#'ExceptionReport-Core' );
+			group: 'REST' with: #( #'ExceptionReport-Rest' );
 			group: 'core' with: #(#'ExceptionReport-Core' ) ].
