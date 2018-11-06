@@ -6,11 +6,10 @@ baseline: spec
 		spec blessing: #'baseline'.
 		spec package: #'ExceptionReport-Core'.
 		spec package: #'ExceptionReport-Rest' with: [ spec requires: #('ExceptionReport-Core' 'Zinc' ) ].
-		spec project: 'Zinc' with: [
-				spec
-					className: #ConfigurationOfZincHTTPComponents;
-					loads: #('REST' );
-					repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
+		spec baseline: 'ZincHTTPComponents' with: [ 
+				spec 
+					loads: #('REST');
+					repository: 'github://zweidenker/zinc/repository'].
 		spec 
 			group: 'default' with: #(#'ExceptionReport-Core' );
 			group: 'REST' with: #( #'ExceptionReport-Rest' );
