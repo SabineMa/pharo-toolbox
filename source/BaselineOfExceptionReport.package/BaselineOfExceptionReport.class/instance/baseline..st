@@ -5,7 +5,7 @@ baseline: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec package: #'ExceptionReport-Core'.
-		spec package: #'ExceptionReport-Rest' with: [ spec requires: #('ExceptionReport-Core' 'Zinc' ) ].
+		spec package: #'ExceptionReport-Rest' with: [ spec requires: #('ExceptionReport-Core' 'ZincHTTPComponents' ) ].
 		spec baseline: 'ZincHTTPComponents' with: [ 
 				spec 
 					loads: #('REST');
